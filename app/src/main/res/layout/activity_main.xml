@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- TextView for display message -->
+    <TextView
+        android:id="@+id/displayMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I wish it were warmer :o"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/fahrenheitTextView" />
+
     <!-- TextView for Fahrenheit -->
     <TextView
         android:id="@+id/fahrenheitTextView"
